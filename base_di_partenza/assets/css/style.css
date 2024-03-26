@@ -219,31 +219,37 @@ footer a {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+    margin-inline: -3px;
   }
   table {
     text-align: center;
     margin: 0 auto;
   }
   header div {
-    text-align: left;
+    text-align: start;
+    vertical-align: middle;
   }
   header div img {
     display: inline-block;
+    vertical-align: middle;
   }
   header div p {
     display: inline-block;
+    vertical-align: middle;
   }
   header nav {
-    display: inline-block;
-    text-align: end;
+    float: right;
+    vertical-align: middle;
   }
   iframe {
     display: inline-block;
     width: 49%;
+    vertical-align: top;
   }
 
   section {
     display: inline-block;
     width: 49%;
+    vertical-align: top;
   }
 }
